@@ -27,4 +27,4 @@ while 1:
         #InstagramAPI.uploadPhoto(photo_path, caption=caption)
         break
     else:
-        print "not now, nope"
+        print "not now"
