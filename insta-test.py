@@ -7,19 +7,19 @@ import time
 #print the_date
 #print datetime.strftime('%Y-%m-%d %H:%M:S').date()
 
-user, pwd = 'puristcoffee', 'Coffee25'
+user, pwd = 'username', 'password'
 
 InstagramAPI = InstagramAPI(user, pwd)
 InstagramAPI.login()  # login
 
 #The photo paths will need to be on PythonAnywhere.
-photo_path1 = '/Users/LukeVenter/Desktop/IMG_3162.JPG'
+photo_path1 = '/Path/To/Images/image.JPG'
 caption1 = "Image \n sdfsaf"
 
-photo_path2 = '/Users/LukeVenter/Desktop/IMG_3162.JPG'
+photo_path2 = '/Path/To/Images/image.JPG'
 caption2 = "Image \n sdfsaf"
 
-photo_path3 = '/Users/LukeVenter/Desktop/IMG_3162.JPG'
+photo_path3 = '/Path/To/Images/image.JPG'
 caption3 = "Image \n sdfsaf"
 
 #You also need to iterate through a list for the above.
